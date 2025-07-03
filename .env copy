@@ -1,0 +1,17 @@
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
+GOOGLE_REDIRECT_URI=http://localhost:3000/api/auth/callback/google
+GOOGLE_SCOPE=email profile
+GOOGLE_AUTH_URL=https://accounts.google.com/o/oauth2/auth
+GOOGLE_TOKEN_URL=https://oauth2.googleapis.com/token
+
+AZURE_CLIENT_ID=
+AZURE_CLIENT_SECRET=
+AZURE_TENANT_ID="YOUR_AZURE_TENANT_ID" # e.g., common or your tenant GUID
+AZURE_REDIRECT_URI=http://localhost:3000/api/auth/callback/azure
+AZURE_SCOPE="api://YOUR_AZURE_API_APP_ID/access_as_user" # The scope you defined in "Expose an API"
+
+JWT_SECRET_KEY=
+JWT_EXPIRATION=1h
+JWT_ISSUER=http://localhost:3000
+SESSION_SECRET_KEY="another-long-random-string-for-session-middleware"
